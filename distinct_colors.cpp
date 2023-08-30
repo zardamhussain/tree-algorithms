@@ -1,3 +1,13 @@
+
+/*  
+
+    Euler Tour + Mo Algorithm
+
+    TIME Complexity : O( (sz + q)* sqrt(sz) )
+    SPACE Comlexity : O( sz )
+    
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
