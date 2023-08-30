@@ -54,7 +54,7 @@ signed main() {
     dfs(1);
 
     while(q--) {
-        int u, v; --u, --v;
+        int u, v;
         cin >> u >> v;
         cout << L[u] + L[v] - 2*L[LCA(u, v)] << '\n';
     }
