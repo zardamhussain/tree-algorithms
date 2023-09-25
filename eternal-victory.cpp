@@ -1,3 +1,13 @@
+/*
+    question-link : https://codeforces.com/contest/61/problem/D
+    this solution is based on dp on tree
+    
+    dp[u][0] -> means the tour starts and end on the node u
+    dp[u][1] -> means the tour starts from node u but ends in subtree of node u
+    
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
